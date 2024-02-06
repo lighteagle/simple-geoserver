@@ -24,7 +24,7 @@
     }).addTo(map);
 
     // Add the WMS layer
-    var wmsLayer = L.tileLayer.wms('https://geoserver.cropsight.tech/geoserver/ne/wms', {
+    var wmsLayer = L.tileLayer.wms('http://cropsight.tech:8080/geoserver/ne/wms', {
       layers: 'ne:world',
       format: 'image/png',
       transparent: true,
